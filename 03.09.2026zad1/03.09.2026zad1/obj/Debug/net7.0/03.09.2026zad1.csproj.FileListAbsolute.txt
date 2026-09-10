@@ -1,0 +1,15 @@
+/Users/weronikakotowska/Projects/praktyki/03.09.2026zad1/03.09.2026zad1/bin/Debug/net7.0/03.09.2026zad1
+/Users/weronikakotowska/Projects/praktyki/03.09.2026zad1/03.09.2026zad1/bin/Debug/net7.0/03.09.2026zad1.deps.json
+/Users/weronikakotowska/Projects/praktyki/03.09.2026zad1/03.09.2026zad1/bin/Debug/net7.0/03.09.2026zad1.runtimeconfig.json
+/Users/weronikakotowska/Projects/praktyki/03.09.2026zad1/03.09.2026zad1/bin/Debug/net7.0/03.09.2026zad1.dll
+/Users/weronikakotowska/Projects/praktyki/03.09.2026zad1/03.09.2026zad1/bin/Debug/net7.0/03.09.2026zad1.pdb
+/Users/weronikakotowska/Projects/praktyki/03.09.2026zad1/03.09.2026zad1/obj/Debug/net7.0/03.09.2026zad1.csproj.AssemblyReference.cache
+/Users/weronikakotowska/Projects/praktyki/03.09.2026zad1/03.09.2026zad1/obj/Debug/net7.0/03.09.2026zad1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/weronikakotowska/Projects/praktyki/03.09.2026zad1/03.09.2026zad1/obj/Debug/net7.0/03.09.2026zad1.AssemblyInfoInputs.cache
+/Users/weronikakotowska/Projects/praktyki/03.09.2026zad1/03.09.2026zad1/obj/Debug/net7.0/03.09.2026zad1.AssemblyInfo.cs
+/Users/weronikakotowska/Projects/praktyki/03.09.2026zad1/03.09.2026zad1/obj/Debug/net7.0/03.09.2026zad1.csproj.CoreCompileInputs.cache
+/Users/weronikakotowska/Projects/praktyki/03.09.2026zad1/03.09.2026zad1/obj/Debug/net7.0/03.09.2026zad1.dll
+/Users/weronikakotowska/Projects/praktyki/03.09.2026zad1/03.09.2026zad1/obj/Debug/net7.0/refint/03.09.2026zad1.dll
+/Users/weronikakotowska/Projects/praktyki/03.09.2026zad1/03.09.2026zad1/obj/Debug/net7.0/03.09.2026zad1.pdb
+/Users/weronikakotowska/Projects/praktyki/03.09.2026zad1/03.09.2026zad1/obj/Debug/net7.0/03.09.2026zad1.genruntimeconfig.cache
+/Users/weronikakotowska/Projects/praktyki/03.09.2026zad1/03.09.2026zad1/obj/Debug/net7.0/ref/03.09.2026zad1.dll
