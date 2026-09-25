@@ -1,14 +1,14 @@
-//
-//  lista_zadan_to_doApp.swift
-//  lista zadan to do
-//
-//  Created by Weronika Kotowska on 17/09/2026.
-//
 
 import SwiftUI
+import FirebaseCore
 
 @main
 struct lista_zadan_to_doApp: App {
+    
+    init() {
+        FirebaseApp.configure()
+    }
+    
     var body: some Scene {
         WindowGroup {
             ContentView()

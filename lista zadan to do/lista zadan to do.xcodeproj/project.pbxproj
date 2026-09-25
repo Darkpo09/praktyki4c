@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D04584AF30655AAA00BDC1B9 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = D04584AE30655AAA00BDC1B9 /* FirebaseAuth */; };
+		D04584B130655AAA00BDC1B9 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = D04584B030655AAA00BDC1B9 /* FirebaseFirestore */; };
+		D04584B33065743600BDC1B9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04584B23065742B00BDC1B9 /* LoginView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		D024D60B305C1AC200214290 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +33,7 @@
 		D024D5FD305C1AC000214290 /* lista zadan to do.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lista zadan to do.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D024D60A305C1AC200214290 /* lista zadan to doTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lista zadan to doTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D024D614305C1AC200214290 /* lista zadan to doUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lista zadan to doUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D04584B23065742B00BDC1B9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +59,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D04584AF30655AAA00BDC1B9 /* FirebaseAuth in Frameworks */,
+				D04584B130655AAA00BDC1B9 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +84,7 @@
 		D024D5F4305C1AC000214290 = {
 			isa = PBXGroup;
 			children = (
+				D04584B23065742B00BDC1B9 /* LoginView.swift */,
 				D024D5FF305C1AC000214290 /* lista zadan to do */,
 				D024D60D305C1AC200214290 /* lista zadan to doTests */,
 				D024D617305C1AC200214290 /* lista zadan to doUITests */,
@@ -112,6 +122,8 @@
 			);
 			name = "lista zadan to do";
 			packageProductDependencies = (
+				D04584AE30655AAA00BDC1B9 /* FirebaseAuth */,
+				D04584B030655AAA00BDC1B9 /* FirebaseFirestore */,
 			);
 			productName = "lista zadan to do";
 			productReference = D024D5FD305C1AC000214290 /* lista zadan to do.app */;
@@ -195,6 +207,9 @@
 			);
 			mainGroup = D024D5F4305C1AC000214290;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D04584AD30655AAA00BDC1B9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = D024D5FE305C1AC000214290 /* Products */;
 			projectDirPath = "";
@@ -236,6 +251,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D04584B33065743600BDC1B9 /* LoginView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -578,6 +594,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D04584AD30655AAA00BDC1B9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.19.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D04584AE30655AAA00BDC1B9 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D04584AD30655AAA00BDC1B9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		D04584B030655AAA00BDC1B9 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D04584AD30655AAA00BDC1B9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D024D5F5305C1AC000214290 /* Project object */;
 }
